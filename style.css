@@ -131,6 +131,11 @@ h3{
     border: 2px solid black;
 }
 
+.bus-memory-info{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 .category-selector-info{
@@ -419,8 +424,32 @@ hr {
 .memory-type-container{
     display: flex;
     flex-direction: row;
+    background-color: white;
 }
 
+
+.bus-memory-info{
+    display: flex;
+    background-color: white;
+
+}
+
+.bus-memory-container{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.bus-memory-container input{
+    display: block;
+    width: 20%;
+}
+
+.bus-memory-container label{
+    width: 80%;
+}
 
 
 
