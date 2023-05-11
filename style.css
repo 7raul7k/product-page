@@ -127,10 +127,13 @@ h3{
 .category-selector-info{
   display: grid;
 
-  grid-template-columns: 180px;
-  grid-template-rows: 330px 90px 115px 220px 580px 290px;
+  grid-template-columns: 165px;
+  grid-template-rows: 330px 90px 115px 220px 580px 290px 120px;
 
   grid-row-gap: 10px;
+  text-align: center;
+
+  font-size: 15px;
 
   margin-left: 2%;
   
@@ -343,6 +346,29 @@ hr {
     justify-items: center;
     width: 30%;
 }
+
+.delivery-by-info{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+ 
+}
+
+.delivery-title{
+    display: block;
+    width: 100%;
+    font-size: 13px;
+}
+
+.delivery-by-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.delivery-by-container label{
+    width: 80%;
+}
+
 
 
 
