@@ -38,7 +38,7 @@ label{
 h3{
     display: block;
     font-size: 15px;
-    text-align: center;
+    
 }
 .header-image{
     display: block;
@@ -145,6 +145,9 @@ h3{
     background-color:#0082e62c;
 }
 
+.category-selector-title{
+    text-align: center;
+}
 
 
 .category-selector-nav{
@@ -201,7 +204,7 @@ h3{
     flex-direction: column;
     background-color: white;
     justify-content: flex-start;
-    align-items: center;
+    text-align: center;
     align-content: space-around;
 }
 
@@ -290,6 +293,30 @@ hr {
     width: 90%;
 }
 
+.brand-info{
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+
+    
+}
+
+.brand-title{
+    display: block;
+    text-align: center;
+}
+
+.brand-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.brand-container label{
+    display: block;
+    width:70%;
+}
 
 
 
