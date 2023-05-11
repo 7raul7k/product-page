@@ -114,12 +114,13 @@ h3{
 
 .container{
     display: grid;
+    grid-template-columns: 200px;
+}
 
-    grid-template-columns: 1fr;
-    grid-template-rows:1fr;
-    grid-row-gap: 10px;
+.container-info{
+    display: flex;
 
-  
+    flex-direction: row;
 }
 
 
@@ -127,8 +128,8 @@ h3{
 .category-selector-info{
   display: grid;
 
-  grid-template-columns: 200px;
-  grid-template-rows: 330px 90px 115px 220px 580px 290px 120px 80px;
+  grid-template-columns: 200px; 
+  grid-template-rows: 330px 90px 115px 220px 580px 290px 120px 100px;
 
   grid-row-gap: 10px;
   text-align: center;
@@ -379,6 +380,11 @@ hr {
 .easybox-container{
     display: flex;
     justify-items: flex-start;
+}
+.chipset-info{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 }
 
 
