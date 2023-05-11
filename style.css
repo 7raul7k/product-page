@@ -128,8 +128,8 @@ label{
 .category-selector-info{
   display: grid;
 
-  grid-template-columns: 190px;
-  grid-template-rows: 300px 100px 125px;
+  grid-template-columns: 160px;
+  grid-template-rows: 300px 120px 125px 180px;
 
   grid-row-gap: 10px;
 
@@ -189,9 +189,6 @@ label{
     font-size: 16px;
 }
 
-
-
-
 .all-products-container,.delivery-emag-container{
     display: flex;
     flex-direction: row;
@@ -224,8 +221,54 @@ label{
 .availability-info label{
    display: block;
    width: 70%;
-
 }
+
+.price-info{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: white;
+    width:100%;
+    align-items: flex-end;
+}
+
+.price-info label{
+    display: block;
+    width: 100%;
+}
+
+.price-info-container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    
+}
+
+
+section[class^="price"]{
+    display: flex;
+    flex-flow: row wrap; 
+
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  
+}
+
+.price-info-title{
+    display: block;
+   font-size: 22px;
+}
+
+section[class^="price"] label{
+    width: 80%;
+}
+section[class^="price"] input{
+    display: block;
+    width: 20%;
+}
+
+
 
 
 
