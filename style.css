@@ -129,7 +129,7 @@ label{
   display: grid;
 
   grid-template-columns: 190px;
-  grid-template-rows: 300px 100px 140px;
+  grid-template-rows: 300px 100px 125px;
 
   grid-row-gap: 10px;
 
@@ -195,7 +195,8 @@ label{
 .all-products-container,.delivery-emag-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 90%;
 }
 .emag-genius-container label{
     display: block;
@@ -206,7 +207,7 @@ label{
     display: flex;
     flex-direction: column;
     background-color: white;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     align-content: space-around;
 }
@@ -214,9 +215,8 @@ label{
 .avalability-in-stock-container,.avalability-promotions-container,.availability-news-container,.availability-reseal-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     justify-items: center;
-    border: 2px solid black;
     width: 70%;
 }
 
@@ -224,6 +224,7 @@ label{
 .availability-info label{
    display: block;
    width: 70%;
+
 }
 
 
