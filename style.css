@@ -35,6 +35,11 @@ label{
    
 }
 
+h3{
+    display: block;
+    font-size: 15px;
+    text-align: center;
+}
 .header-image{
     display: block;
     width: 120px;
@@ -87,7 +92,7 @@ label{
     justify-content: space-evenly;
     align-items: center;
     min-height: 30px;
-    width: 50%;
+    width: 40%;
     
 }
 
@@ -117,19 +122,13 @@ label{
   
 }
 
-.container-title{
-    display: block;
-    color: gray;
-    font-size: 10px;
-    margin-left: 1%;
- 
-}
+
 
 .category-selector-info{
   display: grid;
 
   grid-template-columns: 160px;
-  grid-template-rows: 300px 120px 125px 180px;
+  grid-template-rows: 280px 90px 115px 220px;
 
   grid-row-gap: 10px;
 
@@ -146,24 +145,22 @@ label{
     background-color:#0082e62c;
 }
 
-.category-selector-title{
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-}
+
 
 .category-selector-nav{
     display: flex;
     flex-direction: column;
-    width:90%;
+    width:100%;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 9.4px;
 }
 
 .category-selector-items{
     list-style: none;
+    text-align: center;
+    width: 100%;
 }
 
 .emag-genius-container{
@@ -185,9 +182,7 @@ label{
     width: 50px;
     height: 20px;
 }
-.emag-genius-title{
-    font-size: 16px;
-}
+
 
 .all-products-container,.delivery-emag-container{
     display: flex;
@@ -195,9 +190,10 @@ label{
     justify-content: space-around;
     width: 90%;
 }
+
 .emag-genius-container label{
     display: block;
-    width:65%;
+    width:80%;
 }
 
 .availability-info{
@@ -255,10 +251,6 @@ section[class^="price"]{
   
 }
 
-.price-info-title{
-    display: block;
-   font-size: 22px;
-}
 
 section[class^="price"] label{
     width: 80%;
@@ -267,6 +259,38 @@ section[class^="price"] input{
     display: block;
     width: 20%;
 }
+
+.interval-price-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 100%;
+}
+
+.interval-price-container{
+    display: flex;
+    flex-direction: row;
+}
+
+hr {
+    border: 0.1px solid gray;
+    width: 90%;
+    color: #FFFF00;
+    height: 0.1px;
+}
+.price-number-container{
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    width: 100%;
+}
+
+.price-number-container input{
+    width: 90%;
+}
+
+
 
 
 
