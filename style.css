@@ -113,14 +113,22 @@ h3{
 }
 
 .container{
-    display: grid;
-    grid-template-columns: 200px;
+    display: flex;
+    flex-direction: row;
 }
 
 .container-info{
     display: flex;
 
     flex-direction: row;
+    margin-left: 1%;
+}
+
+.container-title{
+    display: block;
+    width: 100%;
+
+    border: 2px solid black;
 }
 
 
@@ -375,7 +383,7 @@ hr {
     display: flex;
     flex-direction: column;
     background-color: white;
-    align-items: center;
+   
 }
 .easybox-container{
     display: flex;
@@ -385,6 +393,32 @@ hr {
     display: flex;
     flex-direction: column;
     background-color: white;
+}
+
+.chipset-info-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.memory-type-info{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+    
+
+}
+
+.chipset-info-container label,.memory-type-container label,.easybox-container label{
+    display: block;
+    width: 80%;
+}
+
+.memory-type-container{
+    display: flex;
+    flex-direction: row;
 }
 
 
