@@ -142,7 +142,7 @@ h3{
   display: grid;
 
   grid-template-columns: 155px; 
-  grid-template-rows: 330px 90px 115px 220px 580px 290px 120px 100px;
+  grid-template-rows: 330px 100px 125px 220px 580px 290px 120px 100px;
 
   grid-row-gap: 10px;
   text-align: center;
@@ -169,6 +169,10 @@ h3{
     text-align: center;
 }
 
+.category-selector-info label{
+    display: block;
+    width: 80%;
+}
 
 .category-selector-nav{
     display: flex;
@@ -215,10 +219,6 @@ h3{
     width: 90%;
 }
 
-.emag-genius-container label{
-    display: block;
-    width:80%;
-}
 
 .availability-info{
     display: flex;
@@ -419,10 +419,7 @@ hr {
 
 }
 
-.chipset-info-container label,.memory-type-container label,.easybox-container label{
-    display: block;
-    width: 80%;
-}
+
 
 .memory-type-container{
     display: flex;
@@ -450,9 +447,7 @@ hr {
     width: 20%;
 }
 
-.bus-memory-container label{
-    width: 80%;
-}
+
 
 .mobo-type-info{
     display: flex;
@@ -470,10 +465,7 @@ hr {
     width: 80%;
 }
 
-.mobo-type-container label {
-    display: block;
-    width:80%;
-}
+
 
 .power-connector-info{
     display: flex;
@@ -508,10 +500,7 @@ hr {
     justify-content: space-around;
 }
 
-.number-slots-container label{
-    display: block;
-    width: 80%;
-}
+
 
 .slots-info{
     display: flex;
@@ -524,10 +513,7 @@ hr {
     flex-direction: row;
 }
 
-.slots-container label{
-    display: block;
-    width: 80%;
-}
+
 
 .capacity-info{
     display: flex;
@@ -547,6 +533,21 @@ hr {
     display: block;
 
     width: 80%;
+}
+
+.gpu-info{
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
+
+.gpu-container{
+    display: flex;
+    flex-direction: row;
+
+    width:100%;
+    justify-content: center;
 }
 
 
