@@ -365,7 +365,7 @@ hr {
     width: 30%;
 }
 
-.delivery-by-info{
+.delivery-by-tazz-info{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -378,17 +378,17 @@ hr {
     font-size: 13px;
 }
 
-.delivery-by-container{
+.delivery-by-tazz-container{
     display: flex;
     flex-direction: row;
 }
 
-.delivery-by-container label{
+.delivery-by-tazz-container label{
     width: 80%;
 }
 
 .easybox-available-info{
-    display: flex;
+    display : flex;
     flex-direction: column;
     background-color: white;
    
@@ -548,6 +548,27 @@ hr {
 
     width:100%;
     justify-content: center;
+}
+
+.delivery-by-info{
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
+
+.delivery-by-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.delivery-by-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.delivery-by-container label{
+    width: 90%;
 }
 
 
