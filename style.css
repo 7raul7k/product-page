@@ -92,7 +92,7 @@ h3{
     justify-content: space-evenly;
     align-items: center;
     min-height: 30px;
-    width: 40%;
+    width: 50%;
     
 }
 
@@ -106,7 +106,7 @@ h3{
     color:white;
     text-decoration: none;
 }
-.navbar-aux-item[href="product"]{
+.navbar-aux-item[href="product"],.select-choice-container[class="choice-item"]{
     border: 1px solid white;
     padding: 0.2em;
     border-radius: 2em;
@@ -115,6 +115,7 @@ h3{
 .container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .container-info{
@@ -584,6 +585,98 @@ hr {
 
 
 
+.category-products-info{
+    display: grid;
+
+    width: 84%;
+
+    grid-template-row: 1fr 3fr;
+    grid-column-gap: 10px;
+}
+
+.category-product-select-info{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 2%;
+    width: 90%;
+
+    height: 6%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.select-info-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1%;
+
+    width: 30%;
+}
+
+.select-info-header-title{
+    display: block;
+
+    font-size: 22px;
+}
+.choice-chipset-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.choice-title{
+    display: block;
+    font-size: 18px;
+}
+
+.select-choice-container{
+ display: flex;
+
+ flex-direction: row;
+ justify-content: space-evenly;
+ width: 20%;
+}
+
+.choice-item{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    padding: 0.2em;
+    border-radius: 2em;
+   
+}
+
+.selector-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    align-items: center;
+    s
+}
+.order-by-container{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.show-type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.choice{
+    border: 1px solid gray;
+}
 
 
 
