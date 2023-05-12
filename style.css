@@ -513,6 +513,22 @@ hr {
     width: 80%;
 }
 
+.slots-info{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.slots-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.slots-container label{
+    display: block;
+    width: 80%;
+}
+
 
 
 
