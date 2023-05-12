@@ -142,7 +142,7 @@ h3{
   display: grid;
 
   grid-template-columns: 155px; 
-  grid-template-rows: 330px 100px 125px 220px 580px 290px 120px 100px;
+  grid-template-rows: 330px 100px 125px 220px 580px 290px 130px 110px;
 
   grid-row-gap: 10px;
   text-align: center;
@@ -571,6 +571,16 @@ hr {
     width: 90%;
 }
 
+.available-showroom-info{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.available-showroom-container{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
