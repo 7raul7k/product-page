@@ -451,6 +451,28 @@ hr {
     width: 80%;
 }
 
+.mobo-type-info{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+ 
+    width: 100%;
+}
+
+.mobo-type-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    border: 2px solid black;
+    width: 80%;
+}
+
+.mobo-type-container label {
+    display: block;
+    width:80%;
+}
+
 
 
 
